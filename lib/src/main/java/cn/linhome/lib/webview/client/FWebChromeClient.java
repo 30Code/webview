@@ -1,4 +1,4 @@
-package com.fanwe.lib.webview.client;
+package cn.linhome.lib.webview.client;
 
 import android.app.Activity;
 import android.content.Context;
@@ -9,7 +9,6 @@ import android.webkit.ValueCallback;
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 import android.widget.ProgressBar;
-
 
 public class FWebChromeClient extends WebChromeClient
 {

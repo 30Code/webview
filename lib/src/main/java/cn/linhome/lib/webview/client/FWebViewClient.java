@@ -1,4 +1,4 @@
-package com.fanwe.lib.webview.client;
+package cn.linhome.lib.webview.client;
 
 import android.content.Context;
 import android.content.Intent;
@@ -7,11 +7,8 @@ import android.text.TextUtils;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-import com.fanwe.lib.webview.R;
-
 import java.util.ArrayList;
 import java.util.List;
-
 
 public class FWebViewClient extends WebViewClient
 {
@@ -44,7 +41,7 @@ public class FWebViewClient extends WebViewClient
 
     private void initActionViewUrl()
     {
-        final String[] arrActionViewUrl = getContext().getResources().getStringArray(R.array.lib_webview_arr_action_view_url);
+        final String[] arrActionViewUrl = getContext().getResources().getStringArray(cn.linhome.lib.webview.R.array.lib_webview_arr_action_view_url);
         if (arrActionViewUrl != null)
         {
             for (String item : arrActionViewUrl)
@@ -56,7 +53,7 @@ public class FWebViewClient extends WebViewClient
 
     private void initBrowsableUrl()
     {
-        final String[] arrBrowsableUrl = getContext().getResources().getStringArray(R.array.lib_webview_arr_browsable_url);
+        final String[] arrBrowsableUrl = getContext().getResources().getStringArray(cn.linhome.lib.webview.R.array.lib_webview_arr_browsable_url);
         if (arrBrowsableUrl != null)
         {
             for (String item : arrBrowsableUrl)
