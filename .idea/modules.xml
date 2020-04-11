@@ -4,7 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib/lib.iml" filepath="$PROJECT_DIR$/lib/lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mycode-webview.iml" filepath="$PROJECT_DIR$/mycode-webview.iml" group="webview" />
       <module fileurl="file://$PROJECT_DIR$/webview.iml" filepath="$PROJECT_DIR$/webview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/webview-app.iml" filepath="$PROJECT_DIR$/app/webview-app.iml" group="webview/app" />
+      <module fileurl="file://$PROJECT_DIR$/lib/webview-lib.iml" filepath="$PROJECT_DIR$/lib/webview-lib.iml" group="webview/lib" />
     </modules>
   </component>
 </project>

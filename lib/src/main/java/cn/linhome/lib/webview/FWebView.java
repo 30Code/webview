@@ -84,6 +84,11 @@ public class FWebView extends WebView
         settings.setCacheMode(WebSettings.LOAD_NO_CACHE);
         settings.setAppCacheMaxSize(1024 * 1024 * 8);
         settings.setAppCachePath(getCacheDir().getAbsolutePath());
+
+        //解决视频加载不出
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            settings.setMixedContentMode(WebSettings.MIXED_CONTENT_ALWAYS_ALLOW);
+        }
     }
 
     /**
